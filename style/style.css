@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/background.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#organization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#card {
+  text-align: justify;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.404);
+  border-radius: 20px;
+  padding: 20px;
+  color: rgb(228, 228, 228);
+  /* backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.205); */
+}
+
+#card > h1 {
+  text-align: center;
+}
+
+.testTitles {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.testText {
+  font-size: 15px;
+  background-color: rgba(240, 255, 255, 0.247);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.linkList {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.link {
+  color: rgb(228, 228, 228);
+}
+
+.link:visited {
+  color: rgb(228, 228, 228);
+}
+
+#btnSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnAnchor {
+  text-align: center;
+  margin: 5px;
+  width: 100%;
+}
+
+.linkBtn {
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  width: 90%;
+  border: none;
+  border-radius: 30px;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.linkBtn > a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.linkBtn > a:visited {
+  color: rgb(0, 0, 0);
+}
+
+#ins:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 214, 0, 1) 0%,
+    rgba(255, 122, 0, 1) 25%,
+    rgba(255, 0, 105, 1) 50%,
+    rgba(211, 0, 197, 1) 75%,
+    rgba(118, 56, 250, 1) 100%
+  );
+  color: rgb(228, 228, 228);
+}
+
+#ins:hover > a {
+  color: rgb(228, 228, 228);
+}
+
+#lin:hover {
+  cursor: pointer;
+  background-color: #0066a1;
+  color: rgb(228, 228, 228);
+}
+
+#lin:hover > a {
+  color: rgb(228, 228, 228);
+}
+
+#fac:hover {
+  cursor: pointer;
+  background-color: #1977f3;
+  color: rgb(228, 228, 228);
+}
+
+#fac:hover > a {
+  color: rgb(228, 228, 228);
+}
